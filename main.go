@@ -113,50 +113,50 @@ type Question struct {
 }
 
 type TopicTag struct {
-	Name           string `json:"name"`
-	NameTranslated string `json:"nameTranslated"`
-	Slug           string `json:"slug"`
+	Name string `json:"name"`
+	//NameTranslated string `json:"nameTranslated"`
+	Slug string `json:"slug"`
 }
 
 // Problem detail structures
 type ProblemDetailResponse struct {
 	Data struct {
 		Question struct {
-			QuestionID         string        `json:"questionId"`
-			QuestionFrontendID string        `json:"questionFrontendId"`
-			Title              string        `json:"title"`
-			TitleSlug          string        `json:"titleSlug"`
-			Content            string        `json:"content"`
-			TranslatedTitle    string        `json:"translatedTitle"`
-			TranslatedContent  string        `json:"translatedContent"`
-			IsPaidOnly         bool          `json:"isPaidOnly"`
-			Difficulty         string        `json:"difficulty"`
-			Likes              int           `json:"likes"`
-			Dislikes           int           `json:"dislikes"`
-			IsLiked            bool          `json:"isLiked"`
-			SimilarQuestions   string        `json:"similarQuestions"`
-			ExampleTestcases   string        `json:"exampleTestcases"`
-			Contributors       []string      `json:"contributors"`
-			TopicTags          []TopicTag    `json:"topicTags"`
-			CompanyTagStats    string        `json:"companyTagStats"`
-			CodeSnippets       []CodeSnippet `json:"codeSnippets"`
-			Stats              string        `json:"stats"`
-			Hints              []string      `json:"hints"`
-			Solution           Solution      `json:"solution"`
+			QuestionID         string `json:"questionId"`
+			QuestionFrontendID string `json:"questionFrontendId"`
+			Title              string `json:"title"`
+			TitleSlug          string `json:"titleSlug"`
+			//Content            string     `json:"content"`
+			//TranslatedTitle   string `json:"translatedTitle"`
+			//TranslatedContent string `json:"translatedContent"`
+			IsPaidOnly bool   `json:"isPaidOnly"`
+			Difficulty string `json:"difficulty"`
+			//Likes              int        `json:"likes"`
+			//Dislikes           int        `json:"dislikes"`
+			//IsLiked            bool       `json:"isLiked"`
+			SimilarQuestions string `json:"similarQuestions"`
+			ExampleTestcases string `json:"exampleTestcases"`
+			//Contributors       []string   `json:"contributors"`
+			TopicTags       []TopicTag `json:"topicTags"`
+			CompanyTagStats string     `json:"companyTagStats"`
+			//CodeSnippets       []CodeSnippet `json:"codeSnippets"`
+			Stats string `json:"stats"`
+			//Hints    []string `json:"hints"`
+			//Solution Solution `json:"solution"`
 		} `json:"question"`
 	} `json:"data"`
 }
 
-type CodeSnippet struct {
-	Lang     string `json:"lang"`
-	LangSlug string `json:"langSlug"`
-	Code     string `json:"code"`
-}
-
-type Solution struct {
-	ID           string `json:"id"`
-	CanSeeDetail bool   `json:"canSeeDetail"`
-}
+//type CodeSnippet struct {
+//	Lang     string `json:"lang"`
+//	LangSlug string `json:"langSlug"`
+//	Code     string `json:"code"`
+//}
+//
+//type Solution struct {
+//	ID           string `json:"id"`
+//	CanSeeDetail bool   `json:"canSeeDetail"`
+//}
 
 // LeetCodeScraper handles the scraping operations
 type LeetCodeScraper struct {
@@ -388,14 +388,9 @@ func (s *LeetCodeScraper) GetProblemDetail(titleSlug string) (*ProblemDetailResp
 			questionFrontendId
 			title
 			titleSlug
-			content
 			translatedTitle
-			translatedContent
 			isPaidOnly
 			difficulty
-			likes
-			dislikes
-			isLiked
 			similarQuestions
 			exampleTestcases
 			contributors {
@@ -411,20 +406,7 @@ func (s *LeetCodeScraper) GetProblemDetail(titleSlug string) (*ProblemDetailResp
 				__typename
 			}
 			companyTagStats
-			codeSnippets {
-				lang
-				langSlug
-				code
-				__typename
-			}
 			stats
-			hints
-			solution {
-				id
-				canSeeDetail
-				paidOnly
-				__typename
-			}
 		}
 	}`
 
