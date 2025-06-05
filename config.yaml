@@ -1,0 +1,3 @@
+app:
+  secrets:
+    csrf_token: "your_csrf_token"
