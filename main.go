@@ -114,7 +114,6 @@ type Question struct {
 
 type TopicTag struct {
 	Name string `json:"name"`
-	//NameTranslated string `json:"nameTranslated"`
 	Slug string `json:"slug"`
 }
 
@@ -122,41 +121,20 @@ type TopicTag struct {
 type ProblemDetailResponse struct {
 	Data struct {
 		Question struct {
-			QuestionID         string `json:"questionId"`
-			QuestionFrontendID string `json:"questionFrontendId"`
-			Title              string `json:"title"`
-			TitleSlug          string `json:"titleSlug"`
-			//Content            string     `json:"content"`
-			//TranslatedTitle   string `json:"translatedTitle"`
-			//TranslatedContent string `json:"translatedContent"`
-			IsPaidOnly bool   `json:"isPaidOnly"`
-			Difficulty string `json:"difficulty"`
-			//Likes              int        `json:"likes"`
-			//Dislikes           int        `json:"dislikes"`
-			//IsLiked            bool       `json:"isLiked"`
-			SimilarQuestions string `json:"similarQuestions"`
-			ExampleTestcases string `json:"exampleTestcases"`
-			//Contributors       []string   `json:"contributors"`
-			TopicTags       []TopicTag `json:"topicTags"`
-			CompanyTagStats string     `json:"companyTagStats"`
-			//CodeSnippets       []CodeSnippet `json:"codeSnippets"`
-			Stats string `json:"stats"`
-			//Hints    []string `json:"hints"`
-			//Solution Solution `json:"solution"`
+			QuestionID         string     `json:"questionId"`
+			QuestionFrontendID string     `json:"questionFrontendId"`
+			Title              string     `json:"title"`
+			TitleSlug          string     `json:"titleSlug"`
+			IsPaidOnly         bool       `json:"isPaidOnly"`
+			Difficulty         string     `json:"difficulty"`
+			SimilarQuestions   string     `json:"similarQuestions"`
+			ExampleTestcases   string     `json:"exampleTestcases"`
+			TopicTags          []TopicTag `json:"topicTags"`
+			CompanyTagStats    string     `json:"companyTagStats"`
+			Stats              string     `json:"stats"`
 		} `json:"question"`
 	} `json:"data"`
 }
-
-//type CodeSnippet struct {
-//	Lang     string `json:"lang"`
-//	LangSlug string `json:"langSlug"`
-//	Code     string `json:"code"`
-//}
-//
-//type Solution struct {
-//	ID           string `json:"id"`
-//	CanSeeDetail bool   `json:"canSeeDetail"`
-//}
 
 // LeetCodeScraper handles the scraping operations
 type LeetCodeScraper struct {
