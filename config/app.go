@@ -7,7 +7,7 @@ import (
 )
 
 type Headers struct {
-	XCsrfToken string `yaml:"x-csrftoken" json:"-"`
+	Cookie string `yaml:"cookie" json:"-"`
 }
 
 func readConfig(filename string) {
@@ -27,7 +27,7 @@ func loadApp(filename string) error {
 	viper.AutomaticEnv()
 
 	appConfig = &Application{
-		Headers: Headers{XCsrfToken: viper.GetString("app.secrets.csrf_token")},
+		Headers: Headers{Cookie: viper.GetString("app.secrets.cookie")},
 	}
 	log.Println("app config loaded")
 
