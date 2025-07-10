@@ -4,21 +4,38 @@ import (
 	"fmt"
 	"leetcode-scrapper/scrapper"
 	"leetcode-scrapper/utils"
+	"time"
 )
+
+var chunkSize = 20
 
 func downloadCompanyProblems(favoriteSlug string) {
 	// Example 1: Scrape problems from a favorite list
-	fmt.Println("Scraping Facebook 30 Days favorite list...")
-	favoriteResponse, err := leetcodeScrapper.GetFavoriteQuestionList(favoriteSlug, 0, 10)
+	fmt.Println(fmt.Sprintf("Scraping %s list...", favoriteSlug))
+	favoriteResponse, err := leetcodeScrapper.GetFavoriteQuestionList(favoriteSlug, 0, chunkSize)
 	if err != nil {
 		fmt.Printf("Error scraping favorite list: %v\n", err)
 		return
 	}
 
+	totalQuestions := favoriteResponse.Data.FavoriteQuestionList.TotalLength
+
+	var iteration = 1
+	for len(favoriteResponse.Data.FavoriteQuestionList.Questions) < totalQuestions {
+		res, resErr := leetcodeScrapper.GetFavoriteQuestionList(favoriteSlug, iteration*chunkSize, chunkSize)
+		if resErr != nil {
+			fmt.Printf("Error scraping favorite list: %v\n", resErr)
+		}
+		favoriteResponse.Data.FavoriteQuestionList.Questions = append(favoriteResponse.Data.FavoriteQuestionList.Questions, res.Data.FavoriteQuestionList.Questions...)
+		iteration++
+		fmt.Println(fmt.Sprintf("%s: fetched %d questions out of %d questions", favoriteSlug, len(favoriteResponse.Data.FavoriteQuestionList.Questions), totalQuestions))
+		time.Sleep(1 * time.Second)
+	}
+
 	fmt.Printf("Found %d problems in favorite list\n", len(favoriteResponse.Data.FavoriteQuestionList.Questions))
 
 	// Save favorite list problems
-	if err := utils.SaveToFile(favoriteResponse, "data/facebook_30_days.json"); err != nil {
+	if err := utils.SaveToFile(favoriteResponse, fmt.Sprintf("data/%s.json", favoriteSlug)); err != nil {
 		fmt.Printf("Error saving favorite list: %v\n", err)
 		return
 	}
@@ -27,16 +44,56 @@ func downloadCompanyProblems(favoriteSlug string) {
 var leetcodeScrapper *scrapper.LeetCodeScraper
 
 func init() {
+	chunkSize = 10
 	leetcodeScrapper = scrapper.NewLeetCodeScraper()
 }
 
 func main() {
 	slugLists := []string{
-		"facebook-thirty-days",
-		"facebook-three-months",
-		"facebook-six-months",
+		// facebook
+		//"facebook-thirty-days",
+		//"facebook-three-months",
+		//"facebook-six-months",
+		// google
+		//"google-thirty-days",
+		//"google-three-months",
+		//"google-six-months",
+		// amazon
+		//"amazon-thirty-days",
+		//"amazon-three-months",
+		//"amazon-six-months",
+		// microsoft
+		//"microsoft-thirty-days",
+		//"microsoft-three-months",
+		//"microsoft-six-months",
+		// uber
+		//"uber-thirty-days",
+		//"uber-three-months",
+		//"uber-six-months",
+		// apple
+		//"apple-thirty-days",
+		//"apple-three-months",
+		//"apple-six-months",
+		// netflix
+		//"netflix-thirty-days",
+		//"netflix-three-months",
+		//"netflix-six-months",
+		// bloomberg
+		//"bloomberg-thirty-days",
+		//"bloomberg-three-months",
+		//"bloomberg-six-months",
+		// tiktok
+		//"tiktok-thirty-days",
+		//"tiktok-three-months",
+		//"tiktok-six-months",
 	}
-	downloadCompanyProblems(slugLists[0])
+	// downloadCompanyProblems(slugLists[0])
+	for _, slug := range slugLists {
+		downloadCompanyProblems(slug)
+		fmt.Printf("Scraping %s completed\n", slug)
+		time.Sleep(2 * time.Second)
+	}
+
 	//// Example 2: Scrape all problems (first batch)
 	//fmt.Println("Scraping all problems (first 50)...")
 	//allProblems, err := scraper.GetAllProblems(0, 50)
