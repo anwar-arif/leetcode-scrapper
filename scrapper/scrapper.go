@@ -1,12 +1,16 @@
 package scrapper
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
 	"leetcode-scrapper/config"
+	"math/rand"
 	"net/http"
+	"os"
+	"strings"
 	"time"
 )
 
@@ -404,4 +408,131 @@ func (s *LeetCodeScraper) GetProblemDetail(titleSlug string) (*ProblemDetailResp
 	}
 
 	return &response, nil
+}
+
+func (s *LeetCodeScraper) GetRandomQuestion() {
+	filename := "./data/amazon-three-months.json"
+	data, err := os.ReadFile(filename)
+	if err != nil {
+		fmt.Printf("Error reading file: %v\n", err)
+		return
+	}
+
+	var response FavoriteQuestionListResponse
+	err = json.Unmarshal(data, &response)
+	if err != nil {
+		fmt.Printf("Error parsing JSON: %v\n", err)
+		return
+	}
+
+	// Read solved titleSlugs from text file
+	solvedSlugs, err := readSolvedSlugs("./data/solved.txt") // Change this to your file path
+	if err != nil {
+		fmt.Printf("Error reading solved slugs: %v\n", err)
+		return
+	}
+
+	// Extract all titleSlugs
+	questions := response.Data.FavoriteQuestionList.Questions
+	if len(questions) == 0 {
+		fmt.Println("No questions found in the JSON file")
+		return
+	}
+
+	// Collect unsolved titleSlugs only
+	var unsolvedTitleSlugs []string
+	for _, question := range questions {
+		if question.Status == "SOLVED" {
+			continue
+		}
+		if !contains(solvedSlugs, question.TitleSlug) {
+			unsolvedTitleSlugs = append(unsolvedTitleSlugs, question.TitleSlug)
+		}
+	}
+
+	if len(unsolvedTitleSlugs) == 0 {
+		fmt.Println("All questions have been solved! 🎉")
+		return
+	}
+
+	fmt.Printf("Found %d unsolved questions out of %d total questions\n", len(unsolvedTitleSlugs), len(questions))
+
+	// Print random unsolved titleSlugs (2-3 random ones)
+	printRandomTitleSlugs(unsolvedTitleSlugs)
+}
+
+func printRandomTitleSlugs(titleSlugs []string) {
+	if len(titleSlugs) == 0 {
+		fmt.Println("No unsolved title slugs available")
+		return
+	}
+
+	// Seed the random number generator
+	rand.Seed(time.Now().UnixNano())
+
+	// Determine how many to print (2 or 3)
+	numToPrint := 2 + rand.Intn(2) // This gives us 2 or 3
+
+	// If we have fewer questions than numToPrint, print all available
+	if len(titleSlugs) < numToPrint {
+		numToPrint = len(titleSlugs)
+	}
+
+	// Create a copy of the slice to avoid modifying the original
+	slugsCopy := make([]string, len(titleSlugs))
+	copy(slugsCopy, titleSlugs)
+
+	// Shuffle and pick random ones
+	fmt.Printf("\nRandom %d unsolved titleSlugs:\n", numToPrint)
+	for i := 0; i < numToPrint; i++ {
+		// Pick a random index from remaining items
+		randomIndex := rand.Intn(len(slugsCopy))
+
+		// Print the selected titleSlug
+		fmt.Printf("%d. %s\n", i+1, slugsCopy[randomIndex])
+
+		// Remove the selected item to avoid duplicates
+		slugsCopy = append(slugsCopy[:randomIndex], slugsCopy[randomIndex+1:]...)
+	}
+}
+
+// readSolvedSlugs reads the solved titleSlugs from a text file
+func readSolvedSlugs(filename string) ([]string, error) {
+	file, err := os.Open(filename)
+	if err != nil {
+		// If file doesn't exist, return empty slice (no solved questions)
+		if os.IsNotExist(err) {
+			fmt.Printf("Solved file '%s' not found, assuming no questions solved yet\n", filename)
+			return []string{}, nil
+		}
+		return nil, err
+	}
+	defer file.Close()
+
+	var solvedSlugs []string
+	scanner := bufio.NewScanner(file)
+
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line != "" { // Skip empty lines
+			solvedSlugs = append(solvedSlugs, line)
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	fmt.Printf("Loaded %d solved questions from '%s'\n", len(solvedSlugs), filename)
+	return solvedSlugs, nil
+}
+
+// contains checks if a slice contains a specific string
+func contains(slice []string, item string) bool {
+	for _, s := range slice {
+		if s == item {
+			return true
+		}
+	}
+	return false
 }

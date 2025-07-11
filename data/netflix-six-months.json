@@ -1,0 +1,388 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "EASY",
+          "id": 359,
+          "paidOnly": true,
+          "questionFrontendId": "359",
+          "status": "TO_DO",
+          "title": "Logger Rate Limiter",
+          "titleSlug": "logger-rate-limiter",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 88.6,
+          "acRate": 0.7660484004536887,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Data Stream",
+              "slug": "data-stream"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 56,
+          "paidOnly": false,
+          "questionFrontendId": "56",
+          "status": "SOLVED",
+          "title": "Merge Intervals",
+          "titleSlug": "merge-intervals",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 79.6,
+          "acRate": 0.49348019795446235,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 253,
+          "paidOnly": true,
+          "questionFrontendId": "253",
+          "status": "SOLVED",
+          "title": "Meeting Rooms II",
+          "titleSlug": "meeting-rooms-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.5213034556202579,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Greedy",
+              "slug": "greedy"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Prefix Sum",
+              "slug": "prefix-sum"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 2762,
+          "paidOnly": false,
+          "questionFrontendId": "2622",
+          "status": "TO_DO",
+          "title": "Cache With Time Limit",
+          "titleSlug": "cache-with-time-limit",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 73.2,
+          "acRate": 0.7575157556488386,
+          "topicTags": []
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 139,
+          "paidOnly": false,
+          "questionFrontendId": "139",
+          "status": "SOLVED",
+          "title": "Word Break",
+          "titleSlug": "word-break",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.4824014097923414,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Dynamic Programming",
+              "slug": "dynamic-programming"
+            },
+            {
+              "name": "Trie",
+              "slug": "trie"
+            },
+            {
+              "name": "Memoization",
+              "slug": "memoization"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 79,
+          "paidOnly": false,
+          "questionFrontendId": "79",
+          "status": "SOLVED",
+          "title": "Word Search",
+          "titleSlug": "word-search",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 73.2,
+          "acRate": 0.45213299305864607,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Backtracking",
+              "slug": "backtracking"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 744,
+          "paidOnly": false,
+          "questionFrontendId": "743",
+          "status": "TO_DO",
+          "title": "Network Delay Time",
+          "titleSlug": "network-delay-time",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.5734007896159719,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Shortest Path",
+              "slug": "shortest-path"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 332,
+          "paidOnly": false,
+          "questionFrontendId": "332",
+          "status": "TO_DO",
+          "title": "Reconstruct Itinerary",
+          "titleSlug": "reconstruct-itinerary",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.4359091165918015,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Eulerian Circuit",
+              "slug": "eulerian-circuit"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 3,
+          "paidOnly": false,
+          "questionFrontendId": "3",
+          "status": "SOLVED",
+          "title": "Longest Substring Without Repeating Characters",
+          "titleSlug": "longest-substring-without-repeating-characters",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 73.2,
+          "acRate": 0.36888913437599363,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 907,
+          "paidOnly": false,
+          "questionFrontendId": "875",
+          "status": "SOLVED",
+          "title": "Koko Eating Bananas",
+          "titleSlug": "koko-eating-bananas",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 73.2,
+          "acRate": 0.49064543123607574,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 217,
+          "paidOnly": false,
+          "questionFrontendId": "217",
+          "status": "TO_DO",
+          "title": "Contains Duplicate",
+          "titleSlug": "contains-duplicate",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.6320716090815061,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 219,
+          "paidOnly": false,
+          "questionFrontendId": "219",
+          "status": "SOLVED",
+          "title": "Contains Duplicate II",
+          "titleSlug": "contains-duplicate-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.48986110124767135,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 220,
+          "paidOnly": false,
+          "questionFrontendId": "220",
+          "status": "TO_DO",
+          "title": "Contains Duplicate III",
+          "titleSlug": "contains-duplicate-iii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 64.1,
+          "acRate": 0.2361703425178794,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Bucket Sort",
+              "slug": "bucket-sort"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            }
+          ]
+        }
+      ],
+      "totalLength": 13,
+      "hasMore": true
+    }
+  }
+}

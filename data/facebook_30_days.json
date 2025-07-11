@@ -1,0 +1,280 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "EASY",
+          "id": 543,
+          "paidOnly": false,
+          "questionFrontendId": "543",
+          "status": "SOLVED",
+          "title": "Diameter of Binary Tree",
+          "titleSlug": "diameter-of-binary-tree",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 79.5,
+          "acRate": 0.6348500843968627,
+          "topicTags": [
+            {
+              "name": "Tree",
+              "slug": "tree"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Binary Tree",
+              "slug": "binary-tree"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 71,
+          "paidOnly": false,
+          "questionFrontendId": "71",
+          "status": "SOLVED",
+          "title": "Simplify Path",
+          "titleSlug": "simplify-path",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 81.9,
+          "acRate": 0.4771272812417734,
+          "topicTags": [
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Stack",
+              "slug": "stack"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 88,
+          "paidOnly": false,
+          "questionFrontendId": "88",
+          "status": "SOLVED",
+          "title": "Merge Sorted Array",
+          "titleSlug": "merge-sorted-array",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 61.4,
+          "acRate": 0.5284083941320569,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 125,
+          "paidOnly": false,
+          "questionFrontendId": "125",
+          "status": "SOLVED",
+          "title": "Valid Palindrome",
+          "titleSlug": "valid-palindrome",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 75.4,
+          "acRate": 0.5086317283789825,
+          "topicTags": [
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 146,
+          "paidOnly": false,
+          "questionFrontendId": "146",
+          "status": "SOLVED",
+          "title": "LRU Cache",
+          "titleSlug": "lru-cache",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 58.4,
+          "acRate": 0.4511870362981179,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Linked List",
+              "slug": "linked-list"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Doubly-Linked List",
+              "slug": "doubly-linked-list"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 670,
+          "paidOnly": false,
+          "questionFrontendId": "670",
+          "status": "SOLVED",
+          "title": "Maximum Swap",
+          "titleSlug": "maximum-swap",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 70.4,
+          "acRate": 0.5183969994610469,
+          "topicTags": [
+            {
+              "name": "Math",
+              "slug": "math"
+            },
+            {
+              "name": "Greedy",
+              "slug": "greedy"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 162,
+          "paidOnly": false,
+          "questionFrontendId": "162",
+          "status": "SOLVED",
+          "title": "Find Peak Element",
+          "titleSlug": "find-peak-element",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 85.9,
+          "acRate": 0.4649336226330082,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 680,
+          "paidOnly": false,
+          "questionFrontendId": "680",
+          "status": "SOLVED",
+          "title": "Valid Palindrome II",
+          "titleSlug": "valid-palindrome-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 93.7,
+          "acRate": 0.4296820045008485,
+          "topicTags": [
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Greedy",
+              "slug": "greedy"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 1713,
+          "paidOnly": true,
+          "questionFrontendId": "1570",
+          "status": "SOLVED",
+          "title": "Dot Product of Two Sparse Vectors",
+          "titleSlug": "dot-product-of-two-sparse-vectors",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.4,
+          "acRate": 0.8994663647727077,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 215,
+          "paidOnly": false,
+          "questionFrontendId": "215",
+          "status": "SOLVED",
+          "title": "Kth Largest Element in an Array",
+          "titleSlug": "kth-largest-element-in-an-array",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 95,
+          "acRate": 0.679266255273001,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Divide and Conquer",
+              "slug": "divide-and-conquer"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Quickselect",
+              "slug": "quickselect"
+            }
+          ]
+        }
+      ],
+      "totalLength": 157,
+      "hasMore": true
+    }
+  }
+}

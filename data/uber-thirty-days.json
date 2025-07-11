@@ -1,0 +1,231 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "HARD",
+          "id": 269,
+          "paidOnly": true,
+          "questionFrontendId": "269",
+          "status": "SOLVED",
+          "title": "Alien Dictionary",
+          "titleSlug": "alien-dictionary",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 94.2,
+          "acRate": 0.36659602350086445,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Topological Sort",
+              "slug": "topological-sort"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 833,
+          "paidOnly": false,
+          "questionFrontendId": "815",
+          "status": "SOLVED",
+          "title": "Bus Routes",
+          "titleSlug": "bus-routes",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.469645163886983,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 1019,
+          "paidOnly": false,
+          "questionFrontendId": "977",
+          "status": "SOLVED",
+          "title": "Squares of a Sorted Array",
+          "titleSlug": "squares-of-a-sorted-array",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 76.3,
+          "acRate": 0.7320889836914831,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 729,
+          "paidOnly": false,
+          "questionFrontendId": "729",
+          "status": "SOLVED",
+          "title": "My Calendar I",
+          "titleSlug": "my-calendar-i",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 94.2,
+          "acRate": 0.5814770692788923,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Segment Tree",
+              "slug": "segment-tree"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 1972,
+          "paidOnly": false,
+          "questionFrontendId": "1861",
+          "status": "SOLVED",
+          "title": "Rotating the Box",
+          "titleSlug": "rotating-the-box",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 76.3,
+          "acRate": 0.790821503612976,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 79,
+          "paidOnly": false,
+          "questionFrontendId": "79",
+          "status": "SOLVED",
+          "title": "Word Search",
+          "titleSlug": "word-search",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 76.3,
+          "acRate": 0.4521328750978043,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Backtracking",
+              "slug": "backtracking"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 772,
+          "paidOnly": false,
+          "questionFrontendId": "427",
+          "status": "TO_DO",
+          "title": "Construct Quad Tree",
+          "titleSlug": "construct-quad-tree",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 86.8,
+          "acRate": 0.7707448143774929,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Divide and Conquer",
+              "slug": "divide-and-conquer"
+            },
+            {
+              "name": "Tree",
+              "slug": "tree"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        }
+      ],
+      "totalLength": 7,
+      "hasMore": false
+    }
+  }
+}

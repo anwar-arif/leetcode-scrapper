@@ -1,0 +1,217 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "EASY",
+          "id": 359,
+          "paidOnly": true,
+          "questionFrontendId": "359",
+          "status": "TO_DO",
+          "title": "Logger Rate Limiter",
+          "titleSlug": "logger-rate-limiter",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.7660484004536887,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Data Stream",
+              "slug": "data-stream"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 332,
+          "paidOnly": false,
+          "questionFrontendId": "332",
+          "status": "TO_DO",
+          "title": "Reconstruct Itinerary",
+          "titleSlug": "reconstruct-itinerary",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.4359091165918015,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Eulerian Circuit",
+              "slug": "eulerian-circuit"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 3,
+          "paidOnly": false,
+          "questionFrontendId": "3",
+          "status": "SOLVED",
+          "title": "Longest Substring Without Repeating Characters",
+          "titleSlug": "longest-substring-without-repeating-characters",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.5,
+          "acRate": 0.36888913437599363,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 907,
+          "paidOnly": false,
+          "questionFrontendId": "875",
+          "status": "SOLVED",
+          "title": "Koko Eating Bananas",
+          "titleSlug": "koko-eating-bananas",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.5,
+          "acRate": 0.49064543123607574,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 2762,
+          "paidOnly": false,
+          "questionFrontendId": "2622",
+          "status": "TO_DO",
+          "title": "Cache With Time Limit",
+          "titleSlug": "cache-with-time-limit",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.7575157556488386,
+          "topicTags": []
+        },
+        {
+          "difficulty": "EASY",
+          "id": 217,
+          "paidOnly": false,
+          "questionFrontendId": "217",
+          "status": "TO_DO",
+          "title": "Contains Duplicate",
+          "titleSlug": "contains-duplicate",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.5,
+          "acRate": 0.6320717633090355,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 219,
+          "paidOnly": false,
+          "questionFrontendId": "219",
+          "status": "SOLVED",
+          "title": "Contains Duplicate II",
+          "titleSlug": "contains-duplicate-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.5,
+          "acRate": 0.48986110124767135,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 220,
+          "paidOnly": false,
+          "questionFrontendId": "220",
+          "status": "TO_DO",
+          "title": "Contains Duplicate III",
+          "titleSlug": "contains-duplicate-iii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 66.5,
+          "acRate": 0.2361703425178794,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Bucket Sort",
+              "slug": "bucket-sort"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            }
+          ]
+        }
+      ],
+      "totalLength": 8,
+      "hasMore": false
+    }
+  }
+}

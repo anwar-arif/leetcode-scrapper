@@ -49,50 +49,51 @@ func init() {
 }
 
 func main() {
-	slugLists := []string{
-		// facebook
-		//"facebook-thirty-days",
-		//"facebook-three-months",
-		//"facebook-six-months",
-		// google
-		//"google-thirty-days",
-		//"google-three-months",
-		//"google-six-months",
-		// amazon
-		//"amazon-thirty-days",
-		//"amazon-three-months",
-		//"amazon-six-months",
-		// microsoft
-		//"microsoft-thirty-days",
-		//"microsoft-three-months",
-		//"microsoft-six-months",
-		// uber
-		//"uber-thirty-days",
-		//"uber-three-months",
-		//"uber-six-months",
-		// apple
-		//"apple-thirty-days",
-		//"apple-three-months",
-		//"apple-six-months",
-		// netflix
-		//"netflix-thirty-days",
-		//"netflix-three-months",
-		//"netflix-six-months",
-		// bloomberg
-		//"bloomberg-thirty-days",
-		//"bloomberg-three-months",
-		//"bloomberg-six-months",
-		// tiktok
-		//"tiktok-thirty-days",
-		//"tiktok-three-months",
-		//"tiktok-six-months",
-	}
+	leetcodeScrapper.GetRandomQuestion()
+	//slugLists := []string{
+	// facebook
+	//"facebook-thirty-days",
+	//"facebook-three-months",
+	//"facebook-six-months",
+	// google
+	//"google-thirty-days",
+	//"google-three-months",
+	//"google-six-months",
+	// amazon
+	//"amazon-thirty-days",
+	//"amazon-three-months",
+	//"amazon-six-months",
+	// microsoft
+	//"microsoft-thirty-days",
+	//"microsoft-three-months",
+	//"microsoft-six-months",
+	// uber
+	//"uber-thirty-days",
+	//"uber-three-months",
+	//"uber-six-months",
+	// apple
+	//"apple-thirty-days",
+	//"apple-three-months",
+	//"apple-six-months",
+	// netflix
+	//"netflix-thirty-days",
+	//"netflix-three-months",
+	//"netflix-six-months",
+	// bloomberg
+	//"bloomberg-thirty-days",
+	//"bloomberg-three-months",
+	//"bloomberg-six-months",
+	// tiktok
+	//"tiktok-thirty-days",
+	//"tiktok-three-months",
+	//"tiktok-six-months",
+	//}
 	// downloadCompanyProblems(slugLists[0])
-	for _, slug := range slugLists {
-		downloadCompanyProblems(slug)
-		fmt.Printf("Scraping %s completed\n", slug)
-		time.Sleep(2 * time.Second)
-	}
+	//for _, slug := range slugLists {
+	//	downloadCompanyProblems(slug)
+	//	fmt.Printf("Scraping %s completed\n", slug)
+	//	time.Sleep(2 * time.Second)
+	//}
 
 	//// Example 2: Scrape all problems (first batch)
 	//fmt.Println("Scraping all problems (first 50)...")
@@ -139,5 +140,5 @@ func main() {
 	//	time.Sleep(1 * time.Second)
 	//}
 
-	fmt.Println("Scraping completed! Check the 'data' directory for results.")
+	//fmt.Println("Scraping completed! Check the 'data' directory for results.")
 }
