@@ -5,3 +5,5 @@ k-closest-points-to-origin
 big-countries
 combine-two-tables
 cheapest-flights-within-k-stops
+remove-outermost-parentheses
+next-greater-element-iii
