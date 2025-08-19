@@ -7,3 +7,6 @@ combine-two-tables
 cheapest-flights-within-k-stops
 remove-outermost-parentheses
 next-greater-element-iii
+using-a-robot-to-print-the-lexicographically-smallest-string
+sort-colors
+count-subarrays-of-length-three-with-a-condition
