@@ -15,3 +15,5 @@ nim-game
 minimum-number-of-increments-on-subarrays-to-form-a-target-array
 greatest-common-divisor-of-strings
 find-k-pairs-with-smallest-sums
+count-covered-buildings
+is-subsequence
