@@ -18,3 +18,5 @@ find-k-pairs-with-smallest-sums
 count-covered-buildings
 is-subsequence
 total-characters-in-string-after-transformations-i
+01-matrix
+reverse-pairs
