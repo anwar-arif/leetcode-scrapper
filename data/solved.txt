@@ -20,3 +20,5 @@ is-subsequence
 total-characters-in-string-after-transformations-i
 01-matrix
 reverse-pairs
+predict-the-winner
+palindrome-partitioning-ii
