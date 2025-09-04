@@ -24,3 +24,5 @@ predict-the-winner
 palindrome-partitioning-ii
 burst-balloons
 integer-to-roman
+add-binary
+minimum-time-difference
