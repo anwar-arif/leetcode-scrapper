@@ -22,3 +22,5 @@ total-characters-in-string-after-transformations-i
 reverse-pairs
 predict-the-winner
 palindrome-partitioning-ii
+burst-balloons
+integer-to-roman
