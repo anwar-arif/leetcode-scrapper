@@ -26,3 +26,6 @@ burst-balloons
 integer-to-roman
 add-binary
 minimum-time-difference
+find-minimum-in-rotated-sorted-array-ii
+best-time-to-buy-and-sell-stock-iii
+sort-the-people
