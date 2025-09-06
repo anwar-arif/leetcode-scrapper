@@ -442,7 +442,7 @@ func (s *LeetCodeScraper) GetRandomQuestion() {
 	// Collect unsolved titleSlugs only
 	var unsolvedTitleSlugs []string
 	for _, question := range questions {
-		if question.Status == "SOLVED" {
+		if question.Status == "SOLVED" || question.Difficulty == "EASY" {
 			continue
 		}
 		if !contains(solvedSlugs, question.TitleSlug) {

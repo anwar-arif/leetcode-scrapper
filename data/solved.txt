@@ -29,3 +29,4 @@ minimum-time-difference
 find-minimum-in-rotated-sorted-array-ii
 best-time-to-buy-and-sell-stock-iii
 sort-the-people
+maximum-frequency-after-subarray-operation
