@@ -32,3 +32,5 @@ sort-the-people
 maximum-frequency-after-subarray-operation
 delete-nodes-and-return-forest
 count-the-number-of-fair-pairs
+network-delay-time
+count-nodes-equal-to-average-of-subtree
