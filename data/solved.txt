@@ -34,3 +34,8 @@ delete-nodes-and-return-forest
 count-the-number-of-fair-pairs
 network-delay-time
 count-nodes-equal-to-average-of-subtree
+candy
+convert-sorted-list-to-binary-search-tree
+partition-to-k-equal-sum-subsets
+redundant-connection
+letter-case-permutation
