@@ -40,3 +40,5 @@ partition-to-k-equal-sum-subsets
 redundant-connection
 letter-case-permutation
 put-marbles-in-bags
+longest-increasing-path-in-a-matrix
+time-based-key-value-store
