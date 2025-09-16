@@ -42,3 +42,8 @@ letter-case-permutation
 put-marbles-in-bags
 longest-increasing-path-in-a-matrix
 time-based-key-value-store
+reconstruct-itinerary
+next-greater-element-ii
+frequency-of-the-most-frequent-element
+longest-repeating-character-replacement
+max-number-of-k-sum-pairs
