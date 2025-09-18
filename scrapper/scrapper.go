@@ -411,7 +411,7 @@ func (s *LeetCodeScraper) GetProblemDetail(titleSlug string) (*ProblemDetailResp
 }
 
 func (s *LeetCodeScraper) GetRandomQuestion() {
-	filename := "./data/facebook-three-months.json"
+	filename := "./data/google-thirty-days.json"
 	data, err := os.ReadFile(filename)
 	if err != nil {
 		fmt.Printf("Error reading file: %v\n", err)

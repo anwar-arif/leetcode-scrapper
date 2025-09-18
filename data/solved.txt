@@ -47,3 +47,5 @@ next-greater-element-ii
 frequency-of-the-most-frequent-element
 longest-repeating-character-replacement
 max-number-of-k-sum-pairs
+reverse-words-in-a-string
+increasing-triplet-subsequence
