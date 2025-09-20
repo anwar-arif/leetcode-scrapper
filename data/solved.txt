@@ -49,3 +49,6 @@ longest-repeating-character-replacement
 max-number-of-k-sum-pairs
 reverse-words-in-a-string
 increasing-triplet-subsequence
+escape-the-spreading-fire
+pacific-atlantic-water-flow
+top-k-frequent-words
