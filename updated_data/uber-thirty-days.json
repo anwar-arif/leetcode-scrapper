@@ -1,0 +1,549 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "HARD",
+          "id": 305,
+          "paidOnly": true,
+          "questionFrontendId": "305",
+          "status": "ATTEMPTED",
+          "title": "Number of Islands II",
+          "titleSlug": "number-of-islands-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.4024855219761411,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Union Find",
+              "slug": "union-find"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 1549,
+          "paidOnly": false,
+          "questionFrontendId": "1438",
+          "status": "SOLVED",
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 74.9,
+          "acRate": 0.5703146256156276,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Queue",
+              "slug": "queue"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            },
+            {
+              "name": "Monotonic Queue",
+              "slug": "monotonic-queue"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 1366,
+          "paidOnly": true,
+          "questionFrontendId": "1429",
+          "status": "TO_DO",
+          "title": "First Unique Number",
+          "titleSlug": "first-unique-number",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.5644982279675511,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Queue",
+              "slug": "queue"
+            },
+            {
+              "name": "Data Stream",
+              "slug": "data-stream"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 833,
+          "paidOnly": false,
+          "questionFrontendId": "815",
+          "status": "SOLVED",
+          "title": "Bus Routes",
+          "titleSlug": "bus-routes",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 100,
+          "acRate": 0.4697076840044673,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 549,
+          "paidOnly": true,
+          "questionFrontendId": "549",
+          "status": "TO_DO",
+          "title": "Binary Tree Longest Consecutive Sequence II",
+          "titleSlug": "binary-tree-longest-consecutive-sequence-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.4957566161887008,
+          "topicTags": [
+            {
+              "name": "Tree",
+              "slug": "tree"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Binary Tree",
+              "slug": "binary-tree"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 79,
+          "paidOnly": false,
+          "questionFrontendId": "79",
+          "status": "SOLVED",
+          "title": "Word Search",
+          "titleSlug": "word-search",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 86,
+          "acRate": 0.4612141486842145,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Backtracking",
+              "slug": "backtracking"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 588,
+          "paidOnly": true,
+          "questionFrontendId": "588",
+          "status": "TO_DO",
+          "title": "Design In-Memory File System",
+          "titleSlug": "design-in-memory-file-system",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 86,
+          "acRate": 0.4827267845188438,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Trie",
+              "slug": "trie"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 564,
+          "paidOnly": false,
+          "questionFrontendId": "564",
+          "status": "SOLVED",
+          "title": "Find the Closest Palindrome",
+          "titleSlug": "find-the-closest-palindrome",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 100,
+          "acRate": 0.31737210590822856,
+          "topicTags": [
+            {
+              "name": "Math",
+              "slug": "math"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 2344,
+          "paidOnly": false,
+          "questionFrontendId": "2258",
+          "status": "SOLVED",
+          "title": "Escape the Spreading Fire",
+          "titleSlug": "escape-the-spreading-fire",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.36723043948814804,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 3105,
+          "paidOnly": false,
+          "questionFrontendId": "2858",
+          "status": "TO_DO",
+          "title": "Minimum Edge Reversals So Every Node Is Reachable",
+          "titleSlug": "minimum-edge-reversals-so-every-node-is-reachable",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 93.9,
+          "acRate": 0.5587714603318374,
+          "topicTags": [
+            {
+              "name": "Dynamic Programming",
+              "slug": "dynamic-programming"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 269,
+          "paidOnly": true,
+          "questionFrontendId": "269",
+          "status": "TO_DO",
+          "title": "Alien Dictionary",
+          "titleSlug": "alien-dictionary",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 93.9,
+          "acRate": 0.36872940110900726,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Topological Sort",
+              "slug": "topological-sort"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 200,
+          "paidOnly": false,
+          "questionFrontendId": "200",
+          "status": "SOLVED",
+          "title": "Number of Islands",
+          "titleSlug": "number-of-islands",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 93.9,
+          "acRate": 0.6313104781827004,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Union Find",
+              "slug": "union-find"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 1019,
+          "paidOnly": false,
+          "questionFrontendId": "977",
+          "status": "TO_DO",
+          "title": "Squares of a Sorted Array",
+          "titleSlug": "squares-of-a-sorted-array",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.7336566203142868,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 239,
+          "paidOnly": false,
+          "questionFrontendId": "239",
+          "status": "SOLVED",
+          "title": "Sliding Window Maximum",
+          "titleSlug": "sliding-window-maximum",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 74.9,
+          "acRate": 0.48041277920244885,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Queue",
+              "slug": "queue"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Monotonic Queue",
+              "slug": "monotonic-queue"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 253,
+          "paidOnly": true,
+          "questionFrontendId": "253",
+          "status": "SOLVED",
+          "title": "Meeting Rooms II",
+          "titleSlug": "meeting-rooms-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 74.9,
+          "acRate": 0.5232754681088417,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "Greedy",
+              "slug": "greedy"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Prefix Sum",
+              "slug": "prefix-sum"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 1570,
+          "paidOnly": false,
+          "questionFrontendId": "1475",
+          "status": "TO_DO",
+          "title": "Final Prices With a Special Discount in a Shop",
+          "titleSlug": "final-prices-with-a-special-discount-in-a-shop",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.8349528683271213,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Stack",
+              "slug": "stack"
+            },
+            {
+              "name": "Monotonic Stack",
+              "slug": "monotonic-stack"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 365,
+          "paidOnly": false,
+          "questionFrontendId": "365",
+          "status": "TO_DO",
+          "title": "Water and Jug Problem",
+          "titleSlug": "water-and-jug-problem",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 74.9,
+          "acRate": 0.4396541486329568,
+          "topicTags": [
+            {
+              "name": "Math",
+              "slug": "math"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            }
+          ]
+        }
+      ],
+      "totalLength": 17,
+      "hasMore": true
+    }
+  }
+}

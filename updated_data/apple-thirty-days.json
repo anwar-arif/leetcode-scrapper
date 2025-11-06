@@ -1,0 +1,172 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "MEDIUM",
+          "id": 146,
+          "paidOnly": false,
+          "questionFrontendId": "146",
+          "status": "SOLVED",
+          "title": "LRU Cache",
+          "titleSlug": "lru-cache",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 100,
+          "acRate": 0.4609800844005631,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Linked List",
+              "slug": "linked-list"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Doubly-Linked List",
+              "slug": "doubly-linked-list"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 125,
+          "paidOnly": false,
+          "questionFrontendId": "125",
+          "status": "SOLVED",
+          "title": "Valid Palindrome",
+          "titleSlug": "valid-palindrome",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 80.9,
+          "acRate": 0.5197107048734227,
+          "topicTags": [
+            {
+              "name": "Two Pointers",
+              "slug": "two-pointers"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 56,
+          "paidOnly": false,
+          "questionFrontendId": "56",
+          "status": "SOLVED",
+          "title": "Merge Intervals",
+          "titleSlug": "merge-intervals",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 100,
+          "acRate": 0.5025189805717512,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 362,
+          "paidOnly": true,
+          "questionFrontendId": "362",
+          "status": "TO_DO",
+          "title": "Design Hit Counter",
+          "titleSlug": "design-hit-counter",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 80.9,
+          "acRate": 0.6933125872658082,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            },
+            {
+              "name": "Queue",
+              "slug": "queue"
+            },
+            {
+              "name": "Data Stream",
+              "slug": "data-stream"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 48,
+          "paidOnly": false,
+          "questionFrontendId": "48",
+          "status": "SOLVED",
+          "title": "Rotate Image",
+          "titleSlug": "rotate-image",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 80.9,
+          "acRate": 0.7875355188663,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Math",
+              "slug": "math"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 206,
+          "paidOnly": false,
+          "questionFrontendId": "206",
+          "status": "SOLVED",
+          "title": "Reverse Linked List",
+          "titleSlug": "reverse-linked-list",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 80.9,
+          "acRate": 0.7981851271647297,
+          "topicTags": [
+            {
+              "name": "Linked List",
+              "slug": "linked-list"
+            },
+            {
+              "name": "Recursion",
+              "slug": "recursion"
+            }
+          ]
+        }
+      ],
+      "totalLength": 6,
+      "hasMore": false
+    }
+  }
+}

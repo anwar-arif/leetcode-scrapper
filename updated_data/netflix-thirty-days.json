@@ -1,0 +1,76 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "MEDIUM",
+          "id": 210,
+          "paidOnly": false,
+          "questionFrontendId": "210",
+          "status": "SOLVED",
+          "title": "Course Schedule II",
+          "titleSlug": "course-schedule-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 100,
+          "acRate": 0.5430097704557231,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Topological Sort",
+              "slug": "topological-sort"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 220,
+          "paidOnly": false,
+          "questionFrontendId": "220",
+          "status": "TO_DO",
+          "title": "Contains Duplicate III",
+          "titleSlug": "contains-duplicate-iii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.24017268195446045,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Bucket Sort",
+              "slug": "bucket-sort"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            }
+          ]
+        }
+      ],
+      "totalLength": 2,
+      "hasMore": false
+    }
+  }
+}

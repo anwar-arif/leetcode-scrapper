@@ -1,0 +1,272 @@
+{
+  "data": {
+    "favoriteQuestionList": {
+      "questions": [
+        {
+          "difficulty": "MEDIUM",
+          "id": 2762,
+          "paidOnly": false,
+          "questionFrontendId": "2622",
+          "status": "TO_DO",
+          "title": "Cache With Time Limit",
+          "titleSlug": "cache-with-time-limit",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 77.1,
+          "acRate": 0.7586525339380443,
+          "topicTags": []
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 79,
+          "paidOnly": false,
+          "questionFrontendId": "79",
+          "status": "SOLVED",
+          "title": "Word Search",
+          "titleSlug": "word-search",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 67.7,
+          "acRate": 0.4612141486842145,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Backtracking",
+              "slug": "backtracking"
+            },
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Matrix",
+              "slug": "matrix"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 744,
+          "paidOnly": false,
+          "questionFrontendId": "743",
+          "status": "SOLVED",
+          "title": "Network Delay Time",
+          "titleSlug": "network-delay-time",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 77.1,
+          "acRate": 0.5879058746264331,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Heap (Priority Queue)",
+              "slug": "heap-priority-queue"
+            },
+            {
+              "name": "Shortest Path",
+              "slug": "shortest-path"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 3,
+          "paidOnly": false,
+          "questionFrontendId": "3",
+          "status": "SOLVED",
+          "title": "Longest Substring Without Repeating Characters",
+          "titleSlug": "longest-substring-without-repeating-characters",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 89,
+          "acRate": 0.3776218787233598,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 217,
+          "paidOnly": false,
+          "questionFrontendId": "217",
+          "status": "TO_DO",
+          "title": "Contains Duplicate",
+          "titleSlug": "contains-duplicate",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 77.1,
+          "acRate": 0.636510895665985,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            }
+          ]
+        },
+        {
+          "difficulty": "EASY",
+          "id": 219,
+          "paidOnly": false,
+          "questionFrontendId": "219",
+          "status": "TO_DO",
+          "title": "Contains Duplicate II",
+          "titleSlug": "contains-duplicate-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 83.8,
+          "acRate": 0.4990848996713721,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            }
+          ]
+        },
+        {
+          "difficulty": "HARD",
+          "id": 220,
+          "paidOnly": false,
+          "questionFrontendId": "220",
+          "status": "TO_DO",
+          "title": "Contains Duplicate III",
+          "titleSlug": "contains-duplicate-iii",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 100,
+          "acRate": 0.24017268195446045,
+          "topicTags": [
+            {
+              "name": "Array",
+              "slug": "array"
+            },
+            {
+              "name": "Sliding Window",
+              "slug": "sliding-window"
+            },
+            {
+              "name": "Sorting",
+              "slug": "sorting"
+            },
+            {
+              "name": "Bucket Sort",
+              "slug": "bucket-sort"
+            },
+            {
+              "name": "Ordered Set",
+              "slug": "ordered-set"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 1023,
+          "paidOnly": false,
+          "questionFrontendId": "981",
+          "status": "SOLVED",
+          "title": "Time Based Key-Value Store",
+          "titleSlug": "time-based-key-value-store",
+          "translatedTitle": "",
+          "isInMyFavorites": false,
+          "frequency": 93.3,
+          "acRate": 0.49560230577293174,
+          "topicTags": [
+            {
+              "name": "Hash Table",
+              "slug": "hash-table"
+            },
+            {
+              "name": "String",
+              "slug": "string"
+            },
+            {
+              "name": "Binary Search",
+              "slug": "binary-search"
+            },
+            {
+              "name": "Design",
+              "slug": "design"
+            }
+          ]
+        },
+        {
+          "difficulty": "MEDIUM",
+          "id": 210,
+          "paidOnly": false,
+          "questionFrontendId": "210",
+          "status": "SOLVED",
+          "title": "Course Schedule II",
+          "titleSlug": "course-schedule-ii",
+          "translatedTitle": "",
+          "isInMyFavorites": true,
+          "frequency": 77.1,
+          "acRate": 0.5430097704557231,
+          "topicTags": [
+            {
+              "name": "Depth-First Search",
+              "slug": "depth-first-search"
+            },
+            {
+              "name": "Breadth-First Search",
+              "slug": "breadth-first-search"
+            },
+            {
+              "name": "Graph",
+              "slug": "graph"
+            },
+            {
+              "name": "Topological Sort",
+              "slug": "topological-sort"
+            }
+          ]
+        }
+      ],
+      "totalLength": 9,
+      "hasMore": false
+    }
+  }
+}
