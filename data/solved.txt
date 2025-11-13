@@ -60,3 +60,5 @@ find-beautiful-indices-in-the-given-array-i
 minimum-moves-to-move-a-box-to-their-target-location
 remove-boxes
 minimum-operations-to-make-array-elements-zero
+capacity-to-ship-packages-within-d-days
+sliding-window-median

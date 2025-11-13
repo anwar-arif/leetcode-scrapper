@@ -35,7 +35,7 @@ func downloadCompanyProblems(favoriteSlug string) {
 	fmt.Printf("Found %d problems in favorite list\n", len(favoriteResponse.Data.FavoriteQuestionList.Questions))
 
 	// Save favorite list problems
-	if err := utils.SaveToFile(favoriteResponse, fmt.Sprintf("data/%s.json", favoriteSlug)); err != nil {
+	if err := utils.SaveToFile(favoriteResponse, fmt.Sprintf("updated_data/%s.json", favoriteSlug)); err != nil {
 		fmt.Printf("Error saving favorite list: %v\n", err)
 		return
 	}
@@ -51,44 +51,44 @@ func init() {
 func main() {
 	leetcodeScrapper.GetRandomQuestion()
 	//slugLists := []string{
-	// facebook
-	//"facebook-thirty-days",
-	//"facebook-three-months",
-	//"facebook-six-months",
-	// google
-	//"google-thirty-days",
-	//"google-three-months",
-	//"google-six-months",
-	// amazon
-	//"amazon-thirty-days",
-	//"amazon-three-months",
-	//"amazon-six-months",
-	// microsoft
-	//"microsoft-thirty-days",
-	//"microsoft-three-months",
-	//"microsoft-six-months",
-	// uber
-	//"uber-thirty-days",
-	//"uber-three-months",
-	//"uber-six-months",
-	// apple
-	//"apple-thirty-days",
-	//"apple-three-months",
-	//"apple-six-months",
-	// netflix
-	//"netflix-thirty-days",
-	//"netflix-three-months",
-	//"netflix-six-months",
-	// bloomberg
-	//"bloomberg-thirty-days",
-	//"bloomberg-three-months",
-	//"bloomberg-six-months",
-	// tiktok
+	//	//facebook
+	//	"facebook-thirty-days",
+	//	"facebook-three-months",
+	//	"facebook-six-months",
+	//	//google
+	//	"google-thirty-days",
+	//	"google-three-months",
+	//	"google-six-months",
+	//	//amazon
+	//	"amazon-thirty-days",
+	//	"amazon-three-months",
+	//	"amazon-six-months",
+	//	//microsoft
+	//	"microsoft-thirty-days",
+	//	"microsoft-three-months",
+	//	"microsoft-six-months",
+	//	//uber
+	//	"uber-thirty-days",
+	//	"uber-three-months",
+	//	"uber-six-months",
+	//	//apple
+	//	"apple-thirty-days",
+	//	"apple-three-months",
+	//	"apple-six-months",
+	//	//netflix
+	//	"netflix-thirty-days",
+	//	"netflix-three-months",
+	//	"netflix-six-months",
+	//	//bloomberg
+	//	"bloomberg-thirty-days",
+	//	"bloomberg-three-months",
+	//	"bloomberg-six-months",
+	////tiktok
 	//"tiktok-thirty-days",
 	//"tiktok-three-months",
 	//"tiktok-six-months",
 	//}
-	// downloadCompanyProblems(slugLists[0])
+	//downloadCompanyProblems(slugLists[0])
 	//for _, slug := range slugLists {
 	//	downloadCompanyProblems(slug)
 	//	fmt.Printf("Scraping %s completed\n", slug)
