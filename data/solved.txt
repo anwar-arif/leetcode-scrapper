@@ -54,3 +54,9 @@ pacific-atlantic-water-flow
 top-k-frequent-words
 swim-in-rising-water
 reverse-nodes-in-k-group
+find-the-smallest-divisor-given-a-threshold
+product-sales-analysis-iii
+find-beautiful-indices-in-the-given-array-i
+minimum-moves-to-move-a-box-to-their-target-location
+remove-boxes
+minimum-operations-to-make-array-elements-zero
