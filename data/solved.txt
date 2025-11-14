@@ -62,3 +62,6 @@ remove-boxes
 minimum-operations-to-make-array-elements-zero
 capacity-to-ship-packages-within-d-days
 sliding-window-median
+friends-of-appropriate-ages
+buildings-with-an-ocean-view
+all-nodes-distance-k-in-binary-tree
