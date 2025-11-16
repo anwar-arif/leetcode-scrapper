@@ -65,3 +65,7 @@ sliding-window-median
 friends-of-appropriate-ages
 buildings-with-an-ocean-view
 all-nodes-distance-k-in-binary-tree
+max-consecutive-ones-iii
+exclusive-time-of-functions
+interval-list-intersections
+vertical-order-traversal-of-a-binary-tree
