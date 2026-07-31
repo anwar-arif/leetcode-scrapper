@@ -69,3 +69,8 @@ max-consecutive-ones-iii
 exclusive-time-of-functions
 interval-list-intersections
 vertical-order-traversal-of-a-binary-tree
+palindromic-substrings
+custom-sort-string
+sum-root-to-leaf-numbers
+simple-bank-system
+minimum-time-to-collect-all-apples-in-a-tree
